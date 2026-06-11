@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="zh-Hant"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;title&gt;清華交換倒數&lt;/title&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&amp;display=swap" rel="stylesheet"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;style&gt;</span></p>
+<p class="p1"><span class="s1">*{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin:0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding:0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>box-sizing:border-box;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">body{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family:'Poppins',sans-serif;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>height:100vh;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display:flex;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content:center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>align-items:center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background:linear-gradient(</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>135deg,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>#0f172a,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>#1e293b,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>#334155</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>overflow:hidden;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.background{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>position:absolute;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>width:100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>height:100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background:</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>radial-gradient(circle at 20% 20%, rgba(255,255,255,0.08), transparent 20%),</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>radial-gradient(circle at 80% 30%, rgba(255,255,255,0.08), transparent 25%),</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>radial-gradient(circle at 50% 80%, rgba(255,255,255,0.08), transparent 25%);</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.card{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>position:relative;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>z-index:2;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align:center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding:50px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>width:90%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>max-width:700px;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background:rgba(255,255,255,0.08);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>backdrop-filter:blur(20px);</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border:1px solid rgba(255,255,255,0.15);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius:30px;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color:white;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>box-shadow:0 8px 40px rgba(0,0,0,0.3);</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.subtitle{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>letter-spacing:3px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size:14px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>opacity:0.8;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-bottom:15px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.title{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size:3rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight:700;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-bottom:20px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.days{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size:7rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight:700;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>line-height:1;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background:linear-gradient(</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>90deg,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>#ffffff,</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>#93c5fd</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>-webkit-background-clip:text;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>-webkit-text-fill-color:transparent;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.label{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-top:10px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size:1.3rem;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.target{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-top:30px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>opacity:0.7;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.footer{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-top:20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size:0.95rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>opacity:0.7;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">@media(max-width:768px){</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.title{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>font-size:2rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>.days{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>font-size:5rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;div class="background"&gt;&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;div class="card"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="subtitle"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>TSINGHUA EXCHANGE PROGRAM</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="title"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>北京清華交換倒數</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div id="days" class="days"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>0</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="label"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>DAYS LEFT</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="target"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>目標日期：2026 年 9 月 6 日</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="footer"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>Every day brings me closer to Tsinghua.</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;script&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">const targetDate = new Date("2026-09-06T00:00:00");</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">function updateCountdown(){</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const now = new Date();</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const diff = targetDate - now;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const days = Math.ceil(</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>diff / (1000 * 60 * 60 * 24)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>);</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.getElementById("days").textContent = days;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">updateCountdown();</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">setInterval(updateCountdown,1000);</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
